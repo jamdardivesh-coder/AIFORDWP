@@ -1,0 +1,25 @@
+[2026-08-05 16:15:08.251] [INFO] Startup program manager started.
+[2026-08-05 16:15:08.296] [INFO] Mode flags: DryRun=True, Disable=False
+[2026-08-05 16:15:08.445] [INFO] Log file: C:\Users\labuser\Documents\Training\Day3\StartupProgramArtifacts\StartupProgramManager_20260805_161508.log
+[2026-08-05 16:15:08.506] [WARN] Registry startup location missing: HKCU:\Software\Microsoft\Windows\CurrentVersion\RunOnce
+[2026-08-05 16:15:08.841] [INFO] Listing enabled startup entries.
+
+Name           EntryType     StartupScope Location                                                                       Command                                                                                   
+----           ---------     ------------ --------                                                                       -------                                                                                   
+aw-qt          StartupFolder AllUsers     C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup                   C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\aw-qt.lnk                    
+AzureArcSetup  Registry      AllUsers     HKLM:\Software\Microsoft\Windows\CurrentVersion\Run                            C:\Windows\AzureArcSetup\Systray\AzureArcSysTray.exe                                      
+desktop        StartupFolder AllUsers     C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup                   C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\desktop.ini                  
+desktop        StartupFolder CurrentUser  C:\Users\labuser\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup C:\Users\labuser\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\desktop.ini
+SecurityHealth Registry      AllUsers     HKLM:\Software\Microsoft\Windows\CurrentVersion\Run                            C:\Windows\system32\SecurityHealthSystray.exe
+[2026-08-05 16:15:08.968] [INFO] Summary report:
+[2026-08-05 16:15:08.989] [INFO]   RegistryLocationsScanned: 6
+[2026-08-05 16:15:08.995] [INFO]   StartupFoldersScanned: 2
+[2026-08-05 16:15:09.001] [INFO]   StartupEntriesListed: 5
+[2026-08-05 16:15:09.011] [INFO]   MatchedForDisable: 0
+[2026-08-05 16:15:09.017] [INFO]   DisableAttempted: 0
+[2026-08-05 16:15:09.024] [INFO]   DisableSucceeded: 0
+[2026-08-05 16:15:09.032] [INFO]   DisableDryRunListed: 0
+[2026-08-05 16:15:09.048] [INFO]   AlreadyDisabled: 0
+[2026-08-05 16:15:09.057] [INFO]   Skipped: 0
+[2026-08-05 16:15:09.063] [INFO]   Errors: 0
+[2026-08-05 16:15:09.079] [INFO] Startup program manager completed.

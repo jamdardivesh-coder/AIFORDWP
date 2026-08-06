@@ -1,0 +1,5 @@
+[2026-08-05 11:36:46.685] [INFO] Starting cleanup mode. DryRun=True; MinAgeDays=30
+[2026-08-05 11:36:46.692] [INFO] Target paths: C:\Users\labuser\AppData\Local\Temp\2; C:\Windows\Temp
+[2026-08-05 11:36:46.952] [ERROR] Failed enumerating target path 'C:\Windows\Temp': Access to the path 'C:\Windows\Temp' is denied.
+[2026-08-05 11:36:47.013] [INFO] Candidates found: 17. Eligible by age: 0.
+[2026-08-05 11:36:47.058] [INFO] Dry run selected. Listing files that would be deleted.

@@ -1,0 +1,23 @@
+[2026-08-05 16:15:49.463] [INFO] Startup program manager started.
+[2026-08-05 16:15:49.495] [INFO] Mode flags: DryRun=True, Disable=False
+[2026-08-05 16:15:49.502] [INFO] Log file: C:\Users\labuser\Documents\Training\Day3\StartupProgramArtifacts\StartupProgramManager_20260805_161549.log
+[2026-08-05 16:15:49.543] [WARN] Registry startup location missing: HKCU:\Software\Microsoft\Windows\CurrentVersion\RunOnce
+[2026-08-05 16:15:49.666] [INFO] Listing enabled startup entries.
+
+Name           EntryType     StartupScope Location                                                     Command                                                               
+----           ---------     ------------ --------                                                     -------                                                               
+aw-qt          StartupFolder AllUsers     C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\aw-qt.lnk
+AzureArcSetup  Registry      AllUsers     HKLM:\Software\Microsoft\Windows\CurrentVersion\Run          C:\Windows\AzureArcSetup\Systray\AzureArcSysTray.exe                  
+SecurityHealth Registry      AllUsers     HKLM:\Software\Microsoft\Windows\CurrentVersion\Run          C:\Windows\system32\SecurityHealthSystray.exe
+[2026-08-05 16:15:49.939] [INFO] Summary report:
+[2026-08-05 16:15:49.955] [INFO]   RegistryLocationsScanned: 6
+[2026-08-05 16:15:49.963] [INFO]   StartupFoldersScanned: 2
+[2026-08-05 16:15:49.978] [INFO]   StartupEntriesListed: 3
+[2026-08-05 16:15:49.983] [INFO]   MatchedForDisable: 0
+[2026-08-05 16:15:49.992] [INFO]   DisableAttempted: 0
+[2026-08-05 16:15:49.998] [INFO]   DisableSucceeded: 0
+[2026-08-05 16:15:50.005] [INFO]   DisableDryRunListed: 0
+[2026-08-05 16:15:50.019] [INFO]   AlreadyDisabled: 0
+[2026-08-05 16:15:50.025] [INFO]   Skipped: 0
+[2026-08-05 16:15:50.031] [INFO]   Errors: 0
+[2026-08-05 16:15:50.038] [INFO] Startup program manager completed.

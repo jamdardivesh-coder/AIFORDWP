@@ -1,0 +1,27 @@
+[2026-08-06 08:46:29.035] [INFO] Large file finder started.
+[2026-08-06 08:46:29.082] [INFO] Configuration: MinSizeMB=100; ScanPaths=C:\Users; C:\ProgramData; ExportCsv=False
+[2026-08-06 08:46:29.097] [INFO] Log file: C:\Users\labuser\Documents\Training\Day3\LargeFileFinderArtifacts\LargeFileFinder_20260806_084629.log
+[2026-08-06 08:46:29.129] [INFO] Scanning path: C:\Users
+[2026-08-06 08:46:33.082] [INFO] Large file found: C:\Users\labuser\Documents\Training\Day3\TempCleanupArtifacts\RollbackStore_20260805_113834\C\Users\labuser\AppData\Local\Temp\2\vscode-stable-system-x64\CodeSetup-stable-df53daabb18cd157bdb08c7f01c34df936cf12f4.exe (226.78 MB)
+[2026-08-06 08:46:33.082] [INFO] Large file found: C:\Users\labuser\Documents\Training\Day3\TempCleanupArtifacts\RollbackStore_20260805_113834\C\Windows\Temp\chocolatey\activitywatch\0.13.2\activitywatch-v0.13.2-windows-x86_64.zip (109.69 MB)
+[2026-08-06 08:46:33.097] [INFO] Large file found: C:\Users\labuser\Documents\Training\Day3\TempCleanupArtifacts\RollbackStore_20260805_113834\C\Windows\Temp\chocolatey\vscode.install\1.131.0\VSCodeSetup-x64-1.131.0.exe (221.58 MB)
+[2026-08-06 08:46:33.113] [INFO] Scanning path: C:\ProgramData
+[2026-08-06 08:46:34.754] [INFO] Large file found: C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{661C7A14-8315-4D14-BD81-B8D4D187E9AF}\mpasbase.vdm (132.83 MB)
+[2026-08-06 08:46:35.238] [INFO] Listing large files sorted by size (descending).
+
+FullName                                                                                                                                                                                                                SizeMB LastWriteTime       
+--------                                                                                                                                                                                                                ------ -------------       
+C:\Users\labuser\Documents\Training\Day3\TempCleanupArtifacts\RollbackStore_20260805_113834\C\Users\labuser\AppData\Local\Temp\2\vscode-stable-system-x64\CodeSetup-stable-df53daabb18cd157bdb08c7f01c34df936cf12f4.exe 226.78 8/5/2026 10:54:57 AM
+C:\Users\labuser\Documents\Training\Day3\TempCleanupArtifacts\RollbackStore_20260805_113834\C\Windows\Temp\chocolatey\vscode.install\1.131.0\VSCodeSetup-x64-1.131.0.exe                                                221.58 8/3/2026 7:55:16 AM 
+C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{661C7A14-8315-4D14-BD81-B8D4D187E9AF}\mpasbase.vdm                                                                                                        132.83 8/5/2026 8:30:50 AM 
+C:\Users\labuser\Documents\Training\Day3\TempCleanupArtifacts\RollbackStore_20260805_113834\C\Windows\Temp\chocolatey\activitywatch\0.13.2\activitywatch-v0.13.2-windows-x86_64.zip                                     109.69 8/3/2026 7:53:15 AM
+[2026-08-06 08:46:35.347] [INFO] Summary report:
+[2026-08-06 08:46:35.363] [INFO]   PathsRequested: 2
+[2026-08-06 08:46:35.363] [INFO]   PathsScanned: 2
+[2026-08-06 08:46:35.363] [INFO]   PathsMissing: 0
+[2026-08-06 08:46:35.379] [INFO]   FileCandidatesEnumerated: 5684
+[2026-08-06 08:46:35.379] [INFO]   LargeFilesFound: 4
+[2026-08-06 08:46:35.379] [INFO]   PerFileErrors: 0
+[2026-08-06 08:46:35.379] [INFO]   PathEnumerationErrors: 0
+[2026-08-06 08:46:35.394] [INFO]   CsvExported: 0
+[2026-08-06 08:46:35.394] [INFO] Large file finder completed.

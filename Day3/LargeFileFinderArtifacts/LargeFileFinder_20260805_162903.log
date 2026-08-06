@@ -1,0 +1,32 @@
+[2026-08-05 16:29:03.554] [INFO] Large file finder started.
+[2026-08-05 16:29:03.564] [INFO] Configuration: MinSizeMB=1; ScanPaths=.; ExportCsv=False
+[2026-08-05 16:29:03.578] [INFO] Log file: C:\Users\labuser\Documents\Training\Day3\LargeFileFinderArtifacts\LargeFileFinder_20260805_162903.log
+[2026-08-05 16:29:03.595] [INFO] Scanning path: .
+[2026-08-05 16:29:03.658] [INFO] Large file found: C:\Users\labuser\Documents\Training\Day3\TempCleanupArtifacts\RollbackStore_20260805_113834\C\Users\labuser\AppData\Local\Temp\2\vscode-stable-system-x64\CodeSetup-stable-df53daabb18cd157bdb08c7f01c34df936cf12f4.exe (226.78 MB)
+[2026-08-05 16:29:03.886] [INFO] Large file found: C:\Users\labuser\Documents\Training\Day3\TempCleanupArtifacts\RollbackStore_20260805_113834\C\Windows\Temp\chocolatey\activitywatch\0.13.2\activitywatch-v0.13.2-windows-x86_64.zip (109.69 MB)
+[2026-08-05 16:29:03.893] [INFO] Large file found: C:\Users\labuser\Documents\Training\Day3\TempCleanupArtifacts\RollbackStore_20260805_113834\C\Windows\Temp\chocolatey\chocoInstall\chocolatey.zip (4.24 MB)
+[2026-08-05 16:29:03.901] [INFO] Large file found: C:\Users\labuser\Documents\Training\Day3\TempCleanupArtifacts\RollbackStore_20260805_113834\C\Windows\Temp\chocolatey\chocoInstall\tools\chocolateyInstall\choco.exe (7.26 MB)
+[2026-08-05 16:29:03.917] [INFO] Large file found: C:\Users\labuser\Documents\Training\Day3\TempCleanupArtifacts\RollbackStore_20260805_113834\C\Windows\Temp\chocolatey\chocoInstall\tools\chocolateyInstall\tools\7z.dll (1.11 MB)
+[2026-08-05 16:29:04.399] [INFO] Large file found: C:\Users\labuser\Documents\Training\Day3\TempCleanupArtifacts\RollbackStore_20260805_113834\C\Windows\Temp\chocolatey\vscode.install\1.131.0\install.log (1.06 MB)
+[2026-08-05 16:29:04.403] [INFO] Large file found: C:\Users\labuser\Documents\Training\Day3\TempCleanupArtifacts\RollbackStore_20260805_113834\C\Windows\Temp\chocolatey\vscode.install\1.131.0\VSCodeSetup-x64-1.131.0.exe (221.58 MB)
+[2026-08-05 16:29:04.430] [INFO] Listing large files sorted by size (descending).
+
+FullName                                                                                                                                                                                                                SizeMB LastWriteTime        
+--------                                                                                                                                                                                                                ------ -------------        
+C:\Users\labuser\Documents\Training\Day3\TempCleanupArtifacts\RollbackStore_20260805_113834\C\Users\labuser\AppData\Local\Temp\2\vscode-stable-system-x64\CodeSetup-stable-df53daabb18cd157bdb08c7f01c34df936cf12f4.exe 226.78 8/5/2026 10:54:57 AM 
+C:\Users\labuser\Documents\Training\Day3\TempCleanupArtifacts\RollbackStore_20260805_113834\C\Windows\Temp\chocolatey\vscode.install\1.131.0\VSCodeSetup-x64-1.131.0.exe                                                221.58 8/3/2026 7:55:16 AM  
+C:\Users\labuser\Documents\Training\Day3\TempCleanupArtifacts\RollbackStore_20260805_113834\C\Windows\Temp\chocolatey\activitywatch\0.13.2\activitywatch-v0.13.2-windows-x86_64.zip                                     109.69 8/3/2026 7:53:15 AM  
+C:\Users\labuser\Documents\Training\Day3\TempCleanupArtifacts\RollbackStore_20260805_113834\C\Windows\Temp\chocolatey\chocoInstall\tools\chocolateyInstall\choco.exe                                                      7.26 5/10/2023 10:53:30 AM
+C:\Users\labuser\Documents\Training\Day3\TempCleanupArtifacts\RollbackStore_20260805_113834\C\Windows\Temp\chocolatey\chocoInstall\chocolatey.zip                                                                         4.24 8/3/2026 7:52:25 AM  
+C:\Users\labuser\Documents\Training\Day3\TempCleanupArtifacts\RollbackStore_20260805_113834\C\Windows\Temp\chocolatey\chocoInstall\tools\chocolateyInstall\tools\7z.dll                                                   1.11 5/10/2023 10:53:32 AM
+C:\Users\labuser\Documents\Training\Day3\TempCleanupArtifacts\RollbackStore_20260805_113834\C\Windows\Temp\chocolatey\vscode.install\1.131.0\install.log                                                                  1.06 8/3/2026 7:56:37 AM
+[2026-08-05 16:29:04.478] [INFO] Summary report:
+[2026-08-05 16:29:04.491] [INFO]   PathsRequested: 1
+[2026-08-05 16:29:04.552] [INFO]   PathsScanned: 1
+[2026-08-05 16:29:04.557] [INFO]   PathsMissing: 0
+[2026-08-05 16:29:04.573] [INFO]   FileCandidatesEnumerated: 129
+[2026-08-05 16:29:04.578] [INFO]   LargeFilesFound: 7
+[2026-08-05 16:29:04.583] [INFO]   PerFileErrors: 0
+[2026-08-05 16:29:04.590] [INFO]   PathEnumerationErrors: 0
+[2026-08-05 16:29:04.600] [INFO]   CsvExported: 0
+[2026-08-05 16:29:04.604] [INFO] Large file finder completed.
